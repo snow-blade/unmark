@@ -5,11 +5,14 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "tauri:build": "vue-cli-service tauri:build",
+    "tauri:serve": "vue-cli-service tauri:serve"
   },
   "dependencies": {
     "core-js": "^2.6.5",
     "dom-to-image": "^2.6.0",
+    "tauri": "^0.12.0",
     "vue": "^2.6.10",
     "vue-router": "^3.0.7"
   },
@@ -20,6 +23,7 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "vue-cli-plugin-tauri": "~0.12.1",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
