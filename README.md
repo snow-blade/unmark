@@ -38,7 +38,7 @@ vue add tauri
 Then build it with:
 
 ```
-yarn tauri:build
+yarn init && yarn tauri:build
 ```
 
 ### Download
